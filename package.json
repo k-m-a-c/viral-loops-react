@@ -1,0 +1,59 @@
+{
+  "name": "viral-loops-react",
+  "version": "0.1.0",
+  "description": "Unofficial React component wrapper for https://viral-loops.com",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "node config/jest.js --env=jsdom",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trustyknave/viral-loops-react.git"
+  },
+  "keywords": [
+    "viral",
+    "loops",
+    "viralloops",
+    "react",
+    "component"
+  ],
+  "author": "Kevin McLoughlin <kevinmcloughlin2010@gmail.com> (https://trustyknave.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trustyknave/viral-loops-react/issues"
+  },
+  "homepage": "https://github.com/trustyknave/viral-loops-react#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "webpack": "^4.8.2"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js",
+    "testPathIgnorePatterns": [
+      "./src/__tests__/script.js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "./src/__tests__/script.js"
+    ],
+    "testEnvironment": "node",
+    "testURL": "http://localhost"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.3",
+    "jest": "^22.4.3",
+    "webpack-cli": "^2.1.3"
+  }
+}
