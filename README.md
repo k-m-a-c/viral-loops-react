@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/trustyknave/viral-loops-react.svg?branch=master)](https://travis-ci.org/trustyknave/viral-loops-react)
+
 # viral-loops-react
 > React component wrapper for https://viral-loops.com/ script.
 
